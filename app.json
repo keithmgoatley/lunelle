@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Lunelle",
+    "slug": "lunelle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.lunelle.tracker",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Lunelle uses Face ID to unlock your private cycle data."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-font",
+      "expo-sharing",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFF8F3"
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Lunelle uses Face ID to unlock your private cycle data."
+        }
+      ],
+      "expo-notifications"
+    ],
+    "scheme": "lunelle",
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
