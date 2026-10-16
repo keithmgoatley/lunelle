@@ -1,6 +1,6 @@
 # Lunelle
 
-A private period & cycle tracker built with Expo (React Native, TypeScript, Expo Router). Runs entirely in **Expo Go**, with no custom native build needed.
+A private period & cycle tracker built with Expo (React Native, TypeScript, Expo Router). Targets Expo SDK 57 and runs entirely in **Expo Go**, with no custom native build needed.
 
 ## Privacy
 - All data stays on the device: no backend, accounts, analytics, ads or third-party network calls.

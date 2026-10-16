@@ -43,7 +43,8 @@
           "faceIDPermission": "Lunelle uses Face ID to unlock your private cycle data."
         }
       ],
-      "expo-notifications"
+      "expo-notifications",
+      "expo-status-bar"
     ],
     "scheme": "lunelle",
     "experiments": {
